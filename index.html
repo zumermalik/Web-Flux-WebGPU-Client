@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebFlux + WebGPU Client</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="ui-overlay">
+        <h1>WebFlux Stream Status: <span id="status">Disconnected</span></h1>
+        <p>Data Packet: <span id="data-display">-</span></p>
+      </div>
+      <canvas id="gpu-canvas"></canvas>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
